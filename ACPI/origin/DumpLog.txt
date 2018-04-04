@@ -1,0 +1,101 @@
+4:914  3:281  Found UEFI Acpi 2.0 RSDP at 3F171000
+4:914  0:000  Saving ACPI tables from RSDP 3F171000 to EFI\CLOVER\ACPI\origin ...
+4:914  0:000   3F171000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+4:931  0:016    (Xsdt: 3F171090, Rsdt: 3F171028)
+4:931  0:000    3F171090: 'XSDT', 'A M I ', Rev: 1, Len: 164 -> XSDT.aml
+4:952  0:021    3F171028: 'RSDT', 'A M I ', Rev: 1, Len: 100 -> RSDT.aml
+4:964  0:011    Tables in Xsdt: 16
+4:964  0:000    0. 3F187F60: 'FACP', 'A M I ', Rev: 5, Len: 268 -> FACP.aml
+4:990  0:026        (Dsdt: 3F1711D0, Facs: 3F3DAF80, XDsdt: 3F1711D0, XFacs: 0)
+4:990  0:000        3F1711D0: 'DSDT', 'A M I ', Rev: 2, Len: 93579 -> DSDT.aml
+5:008  0:017        3F3DAF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:022  0:014    1. 3F188070: 'APIC', 'A M I ', Rev: 3, Len: 188 -> APIC.aml
+5:034  0:011    2. 3F188130: 'FPDT', 'A M I ', Rev: 1, Len: 68 -> FPDT.aml
+5:045  0:010    3. 3F188178: 'FIDT', 'A M I ', Rev: 1, Len: 156 -> FIDT.aml
+5:056  0:011    4. 3F188218: 'MCFG', 'A M I ', Rev: 1, Len: 60 -> MCFG.aml
+5:067  0:011    5. 3F188258: 'HPET', 'A M I ', Rev: 1, Len: 56 -> HPET.aml
+5:079  0:011    6. 3F188290: 'SSDT', 'PerfTune', Rev: 2, Len: 1224 -> SSDT-0.aml
+5:090  0:010    7. 3F188758: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+5:101  0:010    8. 3F1887F0: 'SSDT', 'PtidDevc', Rev: 1, Len: 4352 -> SSDT-1.aml
+5:112  0:011    9. 3F1898F0: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2083 -> SSDT-2.aml
+5:123  0:011    10. 3F18A118: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22416 -> SSDT-3.aml
+5:136  0:012    11. 3F18F8A8: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+5:147  0:010    12. 3F18F8F0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+ Found hidden SSDT 7 pcs
+5:147  0:000        * 3E1F0698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1500  53 53 44 54 DC 05 00 00 02 F7 50 6D 52 65 66 00 Internal length = 1500 -> SSDT-5x.aml
+5:158  0:010        * 3E1EF618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-6x.aml
+5:169  0:011        * 3E1EFC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-7x.aml
+5:180  0:011        * 3E7F6C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-8x.aml
+5:191  0:011        * 3CE26118: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-9x.aml
+5:203  0:011        * 3CE28C18: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-10x.aml
+5:214  0:011        * 3CE28A98: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-11x.aml
+5:225  0:010   -> SSDT-4.aml
+5:236  0:011    13. 3F190768: 'BGRT', 'A M I ', Rev: 1, Len: 56 -> BGRT.aml
+5:247  0:010    14. 3F1907A0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52 -> TPM2.aml
+5:261  0:013    15. 3F1907D8: 'SSDT', 'OEMTabl', Rev: 1, Len: 8384 -> SSDT-12.aml
+5:274  0:013    Tables in Rsdt: 16
+5:274  0:000    0. 3F171148: 'FACP', 'A M I ', Rev: 2, Len: 132 -> RSDT-FACP.aml
+5:288  0:014        (Dsdt: 3F1711D0, Facs: 3F3DAF40)
+5:288  0:000        3F1711D0: 'DSDT', 'A M I ', Rev: 2, Len: 93579
+5:290  0:001        3F3DAF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+5:302  0:012    1. 3F188070: 'APIC', 'A M I ', Rev: 3, Len: 188
+5:302  0:000    2. 3F188130: 'FPDT', 'A M I ', Rev: 1, Len: 68
+5:302  0:000    3. 3F188178: 'FIDT', 'A M I ', Rev: 1, Len: 156
+5:302  0:000    4. 3F188218: 'MCFG', 'A M I ', Rev: 1, Len: 60
+5:302  0:000    5. 3F188258: 'HPET', 'A M I ', Rev: 1, Len: 56
+5:302  0:000    6. 3F188290: 'SSDT', 'PerfTune', Rev: 2, Len: 1224
+5:302  0:000    7. 3F188758: 'LPIT', 'SKL', Rev: 1, Len: 148
+5:302  0:000    8. 3F1887F0: 'SSDT', 'PtidDevc', Rev: 1, Len: 4352
+5:302  0:000    9. 3F1898F0: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2083
+5:302  0:000    10. 3F18A118: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22416
+5:302  0:000    11. 3F18F8A8: 'UEFI', '', Rev: 1, Len: 66
+5:302  0:000    12. 3F18F8F0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:302  0:000    13. 3F190768: 'BGRT', 'A M I ', Rev: 1, Len: 56
+5:302  0:000    14. 3F1907A0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:302  0:000    15. 3F1907D8: 'SSDT', 'OEMTabl', Rev: 1, Len: 8384
+5:302  0:000  Found UEFI Acpi 1.0 RSDP at 3F171000
+5:302  0:000  Printing ACPI tables from RSDP 3F171000 ...
+5:302  0:000   3F171000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:302  0:000    (Xsdt: 3F171090, Rsdt: 3F171028)
+5:302  0:000    3F171090: 'XSDT', 'A M I ', Rev: 1, Len: 164
+5:302  0:000    3F171028: 'RSDT', 'A M I ', Rev: 1, Len: 100
+5:302  0:000    Tables in Xsdt: 16
+5:302  0:000    0. 3F187F60: 'FACP', 'A M I ', Rev: 5, Len: 268
+5:302  0:000        (Dsdt: 3F1711D0, Facs: 3F3DAF80, XDsdt: 3F1711D0, XFacs: 0)
+5:302  0:000        3F1711D0: 'DSDT', 'A M I ', Rev: 2, Len: 93579
+5:304  0:001        3F3DAF80: 'FACS', Ver: 2, Len: 64
+5:304  0:000    1. 3F188070: 'APIC', 'A M I ', Rev: 3, Len: 188
+5:304  0:000    2. 3F188130: 'FPDT', 'A M I ', Rev: 1, Len: 68
+5:304  0:000    3. 3F188178: 'FIDT', 'A M I ', Rev: 1, Len: 156
+5:304  0:000    4. 3F188218: 'MCFG', 'A M I ', Rev: 1, Len: 60
+5:304  0:000    5. 3F188258: 'HPET', 'A M I ', Rev: 1, Len: 56
+5:304  0:000    6. 3F188290: 'SSDT', 'PerfTune', Rev: 2, Len: 1224
+5:304  0:000    7. 3F188758: 'LPIT', 'SKL', Rev: 1, Len: 148
+5:304  0:000    8. 3F1887F0: 'SSDT', 'PtidDevc', Rev: 1, Len: 4352
+5:304  0:000    9. 3F1898F0: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2083
+5:304  0:000    10. 3F18A118: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22416
+5:304  0:000    11. 3F18F8A8: 'UEFI', '', Rev: 1, Len: 66
+5:304  0:000    12. 3F18F8F0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:304  0:000    13. 3F190768: 'BGRT', 'A M I ', Rev: 1, Len: 56
+5:304  0:000    14. 3F1907A0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:304  0:000    15. 3F1907D8: 'SSDT', 'OEMTabl', Rev: 1, Len: 8384
+5:304  0:000    Tables in Rsdt: 16
+5:304  0:000    0. 3F171148: 'FACP', 'A M I ', Rev: 2, Len: 132
+5:304  0:000        (Dsdt: 3F1711D0, Facs: 3F3DAF40)
+5:304  0:000        3F1711D0: 'DSDT', 'A M I ', Rev: 2, Len: 93579
+5:305  0:001        3F3DAF40: 'FACS', Ver: 0, Len: 64
+5:305  0:000    1. 3F188070: 'APIC', 'A M I ', Rev: 3, Len: 188
+5:305  0:000    2. 3F188130: 'FPDT', 'A M I ', Rev: 1, Len: 68
+5:305  0:000    3. 3F188178: 'FIDT', 'A M I ', Rev: 1, Len: 156
+5:305  0:000    4. 3F188218: 'MCFG', 'A M I ', Rev: 1, Len: 60
+5:305  0:000    5. 3F188258: 'HPET', 'A M I ', Rev: 1, Len: 56
+5:305  0:000    6. 3F188290: 'SSDT', 'PerfTune', Rev: 2, Len: 1224
+5:305  0:000    7. 3F188758: 'LPIT', 'SKL', Rev: 1, Len: 148
+5:305  0:000    8. 3F1887F0: 'SSDT', 'PtidDevc', Rev: 1, Len: 4352
+5:305  0:000    9. 3F1898F0: 'SSDT', 'xh_rvp11', Rev: 2, Len: 2083
+5:305  0:000    10. 3F18A118: 'SSDT', 'SaSsdt ', Rev: 2, Len: 22416
+5:305  0:000    11. 3F18F8A8: 'UEFI', '', Rev: 1, Len: 66
+5:305  0:000    12. 3F18F8F0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+5:305  0:000    13. 3F190768: 'BGRT', 'A M I ', Rev: 1, Len: 56
+5:305  0:000    14. 3F1907A0: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:305  0:000    15. 3F1907D8: 'SSDT', 'OEMTabl', Rev: 1, Len: 8384
